@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1420</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 127);</string>
+  </property>
+  <widget class="QTableWidget" name="tabel">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>50</y>
+     <width>900</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(240, 240, 240);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>ID_Bilet</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Suma jucata</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Cota totala</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Castig potential</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Data si ora plasarii biletului</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Vezi bilet</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="butonAdaugaBilet">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>120</y>
+     <width>221</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(240, 240, 240);</string>
+   </property>
+   <property name="text">
+    <string>Adauga bilet</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butonScoateBilet">
+   <property name="geometry">
+    <rect>
+     <x>1150</x>
+     <y>320</y>
+     <width>221</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(240, 240, 240);</string>
+   </property>
+   <property name="text">
+    <string>Scoate bilet</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butonInapoi">
+   <property name="geometry">
+    <rect>
+     <x>1220</x>
+     <y>680</y>
+     <width>151</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(240, 240, 240);</string>
+   </property>
+   <property name="text">
+    <string>Inapoi</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
